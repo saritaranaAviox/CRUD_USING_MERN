@@ -5,9 +5,9 @@ import { protect } from '../middlewares/authMiddleware.js';
 
 router.post('/signup',Signup)
 router.post('/login',Login)
-router.get('/profile',protect,(req,res)=>{
-    res.json(req.user)
-})
+// router.get('/profile',protect,(req,res)=>{
+//     res.json(req.user)
+// })
 
 
 export default router;

@@ -7,7 +7,10 @@ import SignupPage from './pages/SignupPage'
 import Dashboard from './pages/Dashboard'
 import AppRoutes from './routes/routes'
 
+
+
 function App() {
+  
   const [count, setCount] = useState(0)
 
   return (
